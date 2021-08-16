@@ -1,6 +1,6 @@
 <p>ok?</p><br>
-<h3><a href="https://tryhackme.com/room/picklerick">Actual Site)</a></h3><br>
-<p><a href="https://tryhackme.com/room/picklerick">Actual Site)</a><p><br>
+<h3><a href="https://tryhackme.com/room/picklerick">Actual Site</a></h3><br>
+<p><a href="https://tryhackme.com/room/picklerick">Actual Site</a><p><br>
 **[Actual Site](https://tryhackme.com/room/picklerick)**<br>
 **Credit to the author: [admin](https://codechef.com/users/admin)**<br>
 
