@@ -32,7 +32,6 @@ nmap -sV -sC 10.10.11.43
 ```
 gobuster dir -t 30 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u 10.10.11.43 -x php,html,txt
 ```
-
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Pickle%20Rick/gobuster.png)
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Pickle%20Rick/login.png)
