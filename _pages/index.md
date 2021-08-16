@@ -4,7 +4,7 @@ layout: default
 
 # Welcome!
 
-My name is ~~Shashank~~ however I'm known as **_Shank_**. Currently a student who loves Cyber Security. I still unable to make up my mind whether I would love working in `Red Team` or `Blue Team`. 
+My name is ~~Shashank~~ however I'm known as **_Shank_**. Currently a student who loves Cyber Security. I am still uncertain whether I should work for the `Red` or `Blue` Team. 
 
 I have poked in many areas such as `Incident Handling`, `Network Security`, `Pentesting AD & Systems`, `Exploit Development`, `Application security`, `Malware Development`, `Digital Forensics`, `Cloud Security`, `IDS Systems`, `OS Security`, `Reverse Engineering` and much more!!
 
