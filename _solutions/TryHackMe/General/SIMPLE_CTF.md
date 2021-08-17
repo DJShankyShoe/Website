@@ -135,7 +135,7 @@ python2 ./46635.py -u http://10.10.82.183/simple -w /usr/share/wordlists/rockyou
   class="command-line" 
   data-prompt="root@machine: " 
   data-output="2"
-><code class="language-bash"># Bash script with shell
+><code class="language-bash">
 cat /root/root.txt
 W3ll d0n3. You made it!
 </code>
