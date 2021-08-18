@@ -19,3 +19,13 @@ Do check out my writeups on CTFs and Platform Solutions. ~~Still Working On It~~
 * [Linkedln](https://www.linkedin.com/in/shank-g/)<br>
 * <a href="mailto:shashankgangarajuh@email.com"> Email </a><br>
 * Discord - **NT Authority\System#0101**
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XQW9FGMHHJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XQW9FGMHHJ');
+</script>
