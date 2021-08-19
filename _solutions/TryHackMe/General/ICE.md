@@ -23,7 +23,7 @@ nmap -sV -sC 10.10.7.18
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Ice/metasploit.png)
 
-<p style="color:purple;">‎Started Listener</p>
+<p style="color:orange;">‎Started Listener</p>
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Ice/listener.png)
 
@@ -59,7 +59,7 @@ Dark:7c4fe5eada682714a036e39378362bab
 </pre> 
 
 ‎
-<p style="color:purple;">‎Started Listener</p>
+<p style="color:orange;">‎Cracking Password</p>
 
 ```
 john --format=NT --wordlist=/usr/share.wordlists/rockyou.txt passw
