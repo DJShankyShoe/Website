@@ -6,7 +6,7 @@ contest_name: General
 problem_code: ICE
 problem_name: Ice
 comments: false
-tags: windows nmap mimikatz metasploit
+tags: windows mimikatz metasploit
 date: 2021-08-19
 ---
 
