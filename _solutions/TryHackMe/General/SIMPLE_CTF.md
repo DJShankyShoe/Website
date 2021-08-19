@@ -28,7 +28,7 @@ ftp 10.10.82.183
 ‎
 
 
-### The website was visited however nothing was interesting thus gobutser was used to find for hidden directories and it was where we came across, few intresting directories. One of them was /simple which lead us to another web page
+### The website was visited however nothing was interesting thus gobutser was used to find for hidden directories and it was where we came across, few interesting directories. One of them was /simple which lead us to another web page
 ```
 gobuster dir -t 50 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u 10.10.82.183 -x php,html,txt
 ```

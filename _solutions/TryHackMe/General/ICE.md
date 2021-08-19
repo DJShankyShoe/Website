@@ -30,7 +30,7 @@ nmap -sV -sC 10.10.7.18
 ‎
 
 
-### We need to escalate our priviledges. Thus an attempt was made to perform post-exploitation enumeration by running a local_exploit_suggester on the meterpreter session that listed possible local exploit we can perform. The first ne looked promising thus it was selected for priviledge escalation and was successful. 
+### We need to escalate our priviledges. Thus an attempt was made to perform post-exploitation enumeration by running a local_exploit_suggester on the meterpreter session that listed possible local exploit we can perform. The first suggested exploit looked promising thus it was selected for priviledge escalation and was successful. 
 ```
 run post/multi/recon/local_exploit_suggester
 ```
