@@ -104,7 +104,7 @@ whoami /priv
 ‎
 
 
-### We can list user token by using the command `list_tokens -u`. We are able to see that NT Authority\System token is available. We then can proceed impersonating the token by executing `impersonate_token NT AUTHORITY\SYSTEM` to escalate our privilege
+### We can list user token by using the command `list_tokens -u`. We are able to see that NT Authority\System token is available. We then can proceed impersonating the token by executing `impersonate_token "NT AUTHORITY\SYSTEM"` to escalate our privilege
 
 ![Image](https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/Platforms/TryHackMe/Alfred/escalation.png)
 
