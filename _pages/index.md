@@ -10,7 +10,7 @@ I have poked in many areas such as `Incident Handling`, `Network Security`, `Pen
 
 I do enjoy learning and working on those areas, thus I'm uncertain on the path I should focus on. However during my free time, I do use platforms like [TryHackMe](https://tryhackme.com/) & [Pwnable](https://pwnable.xyz/) to advance my learning. And yeah, I love participating in CTF competitions. I always learn lots of goodies from there :)
 
-Do check out my writeups on CTFs and Platform Solutions. ~~Still Working On It~~
+Do check out my writeups on **[CTFs](https://shank.sytes.net/writeups)** and **[Platform Solutions](https://shank.sytes.net/platforms)**
 <br><br><br>
 
 
