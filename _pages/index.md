@@ -14,11 +14,19 @@ Do check out my writeups on CTFs and Platform Solutions. ~~Still Working On It~~
 <br><br><br>
 
 
+# Cool Projects I worked on:
+
+* [Managing this Web](https://github.com/DJShankyShoe/Website)
+* [IoT Honeypot Environment & Attacks](https://github.com/DJShankyShoe/FYP-RP)<br>
+* [Penetration Testing laboratory](https://github.com/DJShankyShoe/IT-Security-RP)<br>
+* [The Yara Signature Crafter that fingerprints honeypot traffic - SCYTHE](https://github.com/DJShankyShoe/scythe)<br>
+* Personal Malwares - Coming Out Soon!!
+
 ## Contacts:
 
 * [Linkedln](https://www.linkedin.com/in/shank-g/)<br>
 * <a href="mailto:shashankgangarajuh@email.com"> Email </a><br>
-* Discord - **NT Authority\System#0101**
+* Discord - **NT Authority\System#5303**
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQW9FGMHHJ"></script>
