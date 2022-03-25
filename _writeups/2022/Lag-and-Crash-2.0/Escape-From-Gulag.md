@@ -1,6 +1,6 @@
 ---
 layout: writeup
-category: Lag and Crash 2.0
+category: Lag-and-Crash-2.0
 chall_description: https://raw.githubusercontent.com/DJShankyShoe/Website/master/assets/CTFs/2022/Lag-and-Crash-2.0/Escape%20From%20Gulag/images/dp.png
 points: 1000
 solves: 1
