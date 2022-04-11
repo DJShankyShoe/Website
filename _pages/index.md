@@ -27,7 +27,7 @@ Do check out my writeups on **[CTFs](https://shank.sytes.net/writeups)** and **[
 ## Contacts:
 
 * [Linkedln](https://www.linkedin.com/in/shank-g/)<br>
-* <a href="mailto:shashankgangarajuh@email.com"> Email </a><br>
+* <a href="mailto:shashankgangaraju@gmail.com"> Email </a><br>
 * Discord - **NT Authority\System#5303**
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
